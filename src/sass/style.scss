@@ -1,0 +1,14 @@
+
+@import'libs/reset'; // сброс стилей
+// @import'libs/slick'; // стили сликс-лайдера
+@import'base/var';  // постянные данные
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
+@import'blocks/media'; // медиазапросы
