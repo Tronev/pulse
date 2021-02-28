@@ -13,6 +13,7 @@
 .container{
     max-width: 950px;
     margin: 0 auto;
+    position: relative;
 }
 
 .title{
@@ -34,4 +35,5 @@
 @import'blocks/advantages'; // стили секции advantages
 @import'blocks/consultation'; // стили блока consultation
 @import'blocks/forms'; // стили блока forms
+@import'blocks/carousel'; // стили блока carousel
 @import'blocks/media'; // медиазапросы

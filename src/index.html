@@ -6,11 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Pulse</title>
     <link rel="stylesheet" href="css/font.css">
+    <!-- <link rel="stylesheet" href="css/slick.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
     <!-- блок promo  -->
-    <div class="promo">
+    <section class="promo">
         <div class="container">
             <!-- блок header. возможно будет использоваться отдельно -->
             <div class="header">
@@ -30,7 +32,7 @@
                     </button>
                 </div>
             </div>
-
+            <!-- /блок header. возможно будет использоваться отдельно -->
             <div class="promo__wrapper">
                 <h1 class="promo__header">
                     Подбор пульсометра
@@ -56,13 +58,11 @@
                     <a href="#">ПЕРЕЙТИ В КАТАЛОГ</a>
                 </div>
             </div>
-
-           
         </div>
-    </div>
+    </section>
     <!-- /блок promo  -->
-    <!-- блок advantages -->
 
+    <!-- блок advantages -->
     <section class="advantages">
         <div class="container">
              <h2 class="title">НАШИ ПРЕИМУЩЕСТВА</h2>
@@ -89,7 +89,7 @@
     <!-- /блок advantages -->
 
     <!-- блок consultation  -->
-    <div class="consultation">
+    <section class="consultation">
         <div class="container">
             <h2 class="title title_left">Получите бесплатную консультацию <br> по подбору пульсометра</h2>
             <div class="consultation__descr">
@@ -106,9 +106,29 @@
             </form>
             <!-- форма конец -->
         </div>
-    </div>
-
-
+    </section>
     <!-- /блок consultation -->
+
+    <!-- секция карусели -->
+    <section class="carousel">
+        <div class="container">
+            <div class="carousel__inner">
+                <div><img src="img/slide1.jpg" alt="slide1"></div>
+                <div><img src="img/slide2.jpg" alt="slide2"></div>
+                <div><img src="img/slide3.jpg" alt="slide3"></div>
+            </div>
+            <button type="button" class="slick-prev"><img src="img/left.svg" alt="left"></button>
+            <button type="button" class="slick-next"><img src="img/right.svg" alt="right"></button>
+        </div>
+    </section>
+    <!-- /секция карусели -->
+
+
+    <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script> -->
+    <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+    <!-- <script type="text/javascript" src="js/slick.min.js"></script> -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src="js/script.js"></script> 
 </body>
 </html>
