@@ -2,6 +2,8 @@
 @import'libs/reset'; // сброс стилей
 // @import'libs/slick'; // стили сликс-лайдера
 @import'base/var';  // постянные данные
+@import'base/animation'; // стили блока анимации 
+
 
 
 *{
@@ -39,4 +41,6 @@
 @import'blocks/catalog'; // стили блока catalog
 @import'blocks/review'; // стили блока review
 @import'blocks/footer'; // стили блока footer
+@import'blocks/modal'; // стили блока modal
+@import'blocks/pageUp'; // стили блока pageUp
 @import'blocks/media'; // медиазапросы

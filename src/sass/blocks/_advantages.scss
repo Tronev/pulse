@@ -32,4 +32,15 @@
             color: #FF0000;
         }
     }
+    &__img{
+        &_heart{
+            animation: heartbeat 1.2s ease infinite;
+        }
+        &_cup {
+            animation: hesitation 1.2s ease infinite;
+        }
+        &_boot {
+            animation: hesitationVertical 1.2s ease infinite;
+        }
+    }
 }
