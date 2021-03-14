@@ -1,6 +1,8 @@
 
 @import'libs/reset'; // сброс стилей
-// @import'libs/slick'; // стили сликс-лайдера
+@import'libs/animate'; // стили анимации
+@import'libs/font'; // шрифты 
+@import'libs/slick'; // стили сликс-лайдера
 @import'base/var';  // постянные данные
 @import'base/animation'; // стили блока анимации 
 
