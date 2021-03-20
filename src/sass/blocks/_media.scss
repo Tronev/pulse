@@ -15,6 +15,26 @@
             margin: 60px 10px 0 10px;
         }
     }
+    .consultation {
+        text-align: center;
+        .title_left {
+            font-size: 30px;
+            text-align: center;
+        }
+        .feed-form {
+            margin: 36px auto 0 auto;
+        }
+    }
+    .catalog {
+        .title {
+            font-size: 25px;
+        }
+        &__content {
+            margin-left: 10px;
+            margin-right: 10px;
+            justify-content: space-around;
+        }
+    }
 }
 @media  (max-width: 767px) {
     .header {
@@ -34,6 +54,9 @@
         }
     }
     .advantages{
+        .title {
+            font-size: 25px;
+        }
         &__header{
             font-size: 25px;
             font-weight: 400;
@@ -43,7 +66,36 @@
             align-items: center;
         }
     }
-    
+    .consultation {
+        .title_left {
+            font-size: 25px;
+        }
+    }
+    .catalog {
+        &__tabs {
+            flex-direction: column;
+            margin-top: 20px;
+            li {
+                margin-top: 20px;
+            }
+        }
+    }
+    .review {
+        title {
+            font-size: 25px;
+        }
+        &__item {
+            flex-direction: column;
+            align-items: center;
+            img {
+                margin-bottom: 40px;
+            }
+        }
+        &__text {
+            margin-left: 20px;
+        }
+    }
+
 }
 @media  (max-width: 573px) {
     .promo {

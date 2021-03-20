@@ -96,7 +96,7 @@ $(document).ready(function(){
 
 // СТРЕЛКА ВВЕРХ СКРОЛ
 	$(Window).scroll( function () {
-		if($(this).scrollTop() > 1600){
+		if($(this).scrollTop() > 1600 ){
 			$('.pageUp').fadeIn();
 		} else {
 			$('.pageUp').fadeOut();
