@@ -1,2 +1,2 @@
- <a href="https://tronev.github.io/pulse/src/" class="pulse">Результат работы</a>
+ <a href="https://tronev.github.io/pulse/dist/" class="pulse">Результат работы</a>
 
